@@ -73,10 +73,11 @@ Meteor.methods({
         // clear the cart that was used for a session
         // and we're also going to do some garbage Collection
         Cart.remove(sessionCart._id);
-        Meteor.users.remove(sessionCart.userId);
-        ReactionCore.Collections.Accounts.remove({
-          userId: sessionCart.userId
-        });
+        // FIX: commenting below lines that delete user after a sign out followed by a register
+        // Meteor.users.remove(sessionCart.userId);
+        // ReactionCore.Collections.Accounts.remove({
+        //   userId: sessionCart.userId
+        // });
         ReactionCore.Log.debug(
           `merge cart: delete cart ${sessionCart._id} and user: ${sessionCart.userId}`
         );
