@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "Reaction Commerce Core",
-  name: "reactioncommerce:core",
+  summary: "For of Reaction Commerce Core",
+  name: "ergasti:reaction-core",
   version: "0.9.2",
-  git: "https://github.com/reactioncommerce/reaction-core.git"
+  git: "https://github.com:Ergasti/reaction-core-deprecated.git"
 });
 
 Npm.depends({
