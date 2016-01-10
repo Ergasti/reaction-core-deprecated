@@ -1,6 +1,6 @@
 Package.describe({
-  summary: "For of Reaction Commerce Core",
-  name: "ergasti:reaction-core",
+  summary: "Fork of Reaction Commerce Core",
+  name: "reactioncommerce:core",
   version: "0.9.2",
   git: "https://github.com:Ergasti/reaction-core-deprecated.git"
 });
